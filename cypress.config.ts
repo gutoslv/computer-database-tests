@@ -10,5 +10,9 @@ export default defineConfig({
     specPattern: 'cypress/e2e/**/*.spec.{js,ts}',
     watchForFileChanges: false,
     retries: { runMode: 2, openMode: 2 },
+    reporter: 'cypress-multi-reporters',
+    reporterOptions: {
+      configFile: 'reporter-config.json',
+    },
   },
 });
