@@ -8,6 +8,7 @@ export default defineConfig({
     },
     baseUrl: 'https://computer-database.gatling.io/computers',
     specPattern: 'cypress/e2e/**/*.spec.{js,ts}',
+    video: true,
     watchForFileChanges: false,
     retries: { runMode: 2, openMode: 2 },
     reporter: 'cypress-multi-reporters',
