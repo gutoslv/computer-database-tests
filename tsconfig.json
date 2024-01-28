@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./cypress",
+    "target": "es6",
+    "downlevelIteration": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "types": [
+      "cypress",
+      "node",
+      "@testing-library/cypress",
+    ],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "/**/*.ts",
+    "/**/**/*.ts"
+  ]
+}
